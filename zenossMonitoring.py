@@ -53,7 +53,7 @@ if hasattr(evt, 'device') and hasattr(evt, 'component'):
     if (evt.device == 'localhost' and
             evt.component == 'zenossMonitoring' and
             'Synthetic Zenoss event check' in evt.summary):
-        evt.message = '%s\n%s' % (evt.summary, 'Transform worked.')
+        evt.message = '%s\\n%s' % (evt.summary, 'Transform worked.')
 '''.format(_ZENOSS_RM, _MSG[:-5])
 
 # Event data
