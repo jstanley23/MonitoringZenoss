@@ -13,13 +13,13 @@ documentationURL = "http://wiki.zenoss.org/Monitoring_Zenoss"
 
 # Zenoss Instance information
 # This can be removed and the class can be called with args
-_ZENOSS_INSTANCE = 'http://10.210.3.150:8080'
-_ZENOSS_USERNAME = 'svc_api'
-_ZENOSS_PASSWORD = '1234'
+_ZENOSS_INSTANCE = 'http://10.10.10.10:8080'
+_ZENOSS_USERNAME = 'svc_monitoring'
+_ZENOSS_PASSWORD = 'supersecure'
 _ZENOSS_TIMEOUT = 10
 
 # RabbitMQ (AMQP) information
-_RABBIT_HOST = '10.210.3.150'
+_RABBIT_HOST = '10.10.10.10'
 _RABBIT_PORT = '5672'
 _RABBIT_USERNAME = 'zenoss'
 _RABBIT_PASSWORD = 'zenoss'
